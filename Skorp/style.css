@@ -1,0 +1,495 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap')
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Varela Round", sans-serif;
+}
+a{
+  text-decoration: none;
+}
+
+.section-heading{
+  font-family: "Lato", sans-serif;
+  font-size: 17.6px;
+  color: #F14902;
+}
+.section-sub-heading{
+  font-family: "Lato", sans-serif;
+  font-size: 51.7px;
+  color: #000000;
+  font-weight:700;
+}
+.section-sub-heading-one{
+  font-family: "Lato", sans-serif;
+  font-size: 29.7px;
+  color: #000000;
+  font-weight:700;
+}
+.section-description{
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  color: #555555;
+}
+.orange-text{
+  font-family: sans-serif;
+  font-size: 51.2px;
+  color: #FFCA2C;
+  font-weight:600;
+}
+
+.header-contacts{
+    background: #393536;
+}
+.header-contacts svg{
+    color: #FFAE21;
+    width: 30px;
+    height: 30px;
+}
+.header-contacts p{
+    color: #fff;
+}
+
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1250px;
+   
+}
+
+.header-contacts .header-social-icons svg{
+    background: #fff;
+    color: #393536;
+    padding: 5px;
+    border-radius: 50px;
+}
+.header-contacts .nav-address{
+    color: #fff;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: 2.5rem;
+    justify-content: space-evenly;
+}
+/* .img-fluid {
+    max-width: 100%;
+    height: 100px;
+    width: 100%;
+} */
+.transport{
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  color: #050505;
+  font-weight:700;
+}
+.about-img-wrapper {
+  display: flex;
+  position: relative;
+}
+
+.about-img-one,
+.about-img-two,
+.about-img-three {
+  flex: 1;
+  position: relative;
+}
+
+.about-img-one img,
+.about-img-two img,
+.about-img-three img {
+  width: 100%;
+  height: auto;
+}
+
+.about-img-two {
+  position: absolute;
+  top: 10%; /* Adjust top offset */
+  right: 0;
+}
+
+.about-img-three {
+  position: absolute;
+  top: 50px; /* Adjust top offset */
+  right: 0;
+}
+.partners{
+  margin-top: 250px;
+}
+
+button.btn.btn-warning {
+  margin-left: 50px;
+}
+.why-us{
+  margin-bottom: 150px;
+  margin-top: 50px;
+}
+.btn{
+
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+}
+
+.navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+    font-weight: bolder;
+    color: black;
+    
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: .5rem;
+  padding-left: 2rem;
+  justify-content: space-evenly;
+}
+.nav-link{
+    color: black;
+}
+.container-fluid {
+ 
+    height: 5px;
+    color: #141414;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(Assets/imageone.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 250px;
+}
+.container-fluid img {
+  background-size: cover;
+ 
+    width: 100%;
+    
+  }
+  /* .notice{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(Assets/image/loading-of-cargo-airplane-2023-11-27-05-35-58-utc-1536x1024.jpg);
+   
+     
+      
+  } */
+  
+ 
+  .first-text {
+    font-size: 17px;
+    color: #FFCA2C;
+    font-weight: bolder;
+    display: flex;
+    
+  }
+  
+  .first-text p {
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 17px;
+    font-family: sans-serif;
+  }
+  .first-two {
+    font-size: 60.8px;
+    color: black;
+    font-weight: bolder;
+    margin-left : 50px;
+    font-family: sans-serif;
+   
+  }
+  .first-two p{
+    font-family: sans-serif;
+  }
+  .first-three {
+    font-size: 20px;
+    color: black;
+    font-weight: bolder;
+    margin-left : 50px;
+    font-family: sans-serif;
+  }
+  .hero-box{
+    
+    padding-top: 10px;
+  }
+
+.truck img{
+    margin-right: 40px;
+  }
+
+  .card-body{
+    background-image: url(Assets/pexels-chanaka-906494.jpg);
+  }
+  .containers{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    align-items: center;
+    background-color: aliceblue;
+    
+  
+  }
+  .containers img{
+    width : 150px;
+    align-items: center;
+  
+  }
+  .ptn-logo{
+    width : 100px;
+    align-items: center;
+    justify-content: center;
+  }
+  .services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .ser-info {
+    margin: 20px;
+  }
+
+  .fs-1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .fs-2 {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .card-body {
+    background-image: url("Assets/worker-loading-cargo-in-storage-room-2023-11-27-04-59-46-utc.jpg");
+    background-size: cover;
+    flex: 1 1 auto;
+    padding: 2rem 3rem;
+    background-color: #141414;
+    position: relative;
+}
+.hero-box .card-body::before{ 
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #FFAE21;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+  z-index: 1;
+    
+}
+.hero-box .btn{
+  z-index: 2;
+  position: relative;
+}
+.btn{
+ 
+  font-size: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #fff;
+}
+.row{
+  padding-bottom: 20px;
+}
+
+
+
+/* About Us */
+
+.container-abt, .container-lg, .container-md, .container-sm, .container-xl {
+  max-width: 1250px;
+  /* min-width: 1200px; */
+}
+
+.about-img-wrapper{
+  position: relative;
+  height: 100vh;
+}
+.about-img-one {
+  position: absolute;
+  left  : -25%;
+  
+}
+.about-img-one img{
+ 
+  width: 385px;
+  height: 256.66px;
+}
+.about-img-two{
+  position: absolute;
+  top: 50%;
+  
+}
+.about-img-two img{
+  height: 289px;
+  width : 385px;
+}
+.about-img-three{
+  position: absolute;
+  top: 100%;
+  left : -25%;
+
+  
+}
+.about-img-three img{
+  width: 433px;
+  height: 229px;
+}
+
+/* Our Service */
+
+.card-body-none{
+  flex: 1 1 auto;
+  padding: 2rem 3rem;
+  background-color: #141414;
+  position: relative;
+}
+.notice{
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(Assets/image/loading-of-cargo-airplane-2023-11-27-05-35-58-utc-1536x1024.jpg);
+  background-size: cover;
+    
+    width: 100%;
+   
+    
+}
+
+.container-abt{
+  margin-top: 30px;
+}
+.notice-button{
+  background-color: #FFAE21;
+  padding: 16px 32px;
+}
+
+/* progressbar */
+.tooltip{ 
+  position:relative;
+  float:right;
+}
+.tooltip > .tooltip-inner {background-color: #eebf3f; padding:5px 15px; color:rgb(23,44,66); font-weight:bold; font-size:13px;}
+.popOver + .tooltip > .tooltip-arrow {	border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 5px solid #eebf3f;}
+
+/* section{
+  margin:100px auto; 
+  height:1000px;
+} */
+.progress{
+  border-radius:10px;
+  overflow:visible;
+  margin-bottom: 30px !important;
+}
+.progress-bar{
+   background:rgb(23,44,60); 
+  -webkit-transition: width 1.5s ease-in-out;
+  transition: width 1.5s ease-in-out;
+}
+.testimonial-content{
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.15);
+  padding: 2em;
+}
+.test-star svg{
+  width: 15px;
+  height: 15px;
+}
+
+.test-img img{
+  height: 70px;
+  width: 70px;
+  border-radius: 50px;
+  margin: 0 auto;
+}
+
+.test-img h3{
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+.packed {
+  height: 61px;
+  width:89px;
+  color: #f14902;
+}
+.packed p{
+  font-family: "Lato", sans-serif;
+  font-size: 29.7px;
+  color: #000000;
+  font-weight:700;
+}
+
+.del {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* .del-des{
+  font-size: 16px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #f14902;
+} */
+.del-main{
+  font-family: "Lato", sans-serif;
+  font-size: 51.7px;
+  color:#f14902;
+  font-weight:700;
+  margin-bottom: 30px;
+}
+.del-des {
+  font-size: 16px;
+  font-family: "Varela Round", sans-serif;
+  color: #f14902;
+  margin-bottom: 0%;
+  margin-bottom: 40px;
+  
+}
+.del-main{
+  padding: 30px;
+  background-color: whitesmoke;
+  background-size: cover;
+}
+
+.get {
+  position: relative;
+  background-image: url(Assets/image/loading-of-cargo-airplane-2023-11-27-05-35-58-utc-1536x1024.jpg);
+  background-size: cover;
+  width: 645px;
+  height: 520px;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(Assets/image/loading-of-cargo-airplane-2023-11-27-05-35-58-utc-1536x1024.jpg);
+  background-size: cover;
+    
+    width: 100%;
+    margin-top: 50px;
+    right: -30px;
+}
+.get-two{
+  background-color: #eebf3f;
+  width: 645px;
+  height: 550px;
+  
+ margin-bottom: 50px;
+}
+.get img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.5;
+  filter: brightness(0) invert(1);
+}
+
+.get svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.ser-info-one {
+  margin: 0px;
+}
